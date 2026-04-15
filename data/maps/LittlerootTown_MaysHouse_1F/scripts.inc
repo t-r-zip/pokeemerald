@@ -150,6 +150,7 @@ LittlerootTown_MaysHouse_1F_EventScript_GoSeeRoom::
 	applymovement VAR_0x8004, Common_Movement_WalkInPlaceFasterRight
 	waitmovement 0
 	goto PlayersHouse_1F_EventScript_MomGoSeeRoom
+	setflag FLAG_SYS_B_DASH
 	end
 
 LittlerootTown_MaysHouse_1F_EventScript_MeetRival0::
